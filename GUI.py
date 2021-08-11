@@ -3,6 +3,10 @@ from game import solve, valid
 import time
 pygame.font.init()
 
+# GUI.py is the visual representation of the game.py program
+
+# the whole grid class
+
 
 class Grid:
     board = [
@@ -100,6 +104,8 @@ class Grid:
                 if self.cubes[i][j].value == 0:
                     return False
         return True
+
+# 3x3 cube
 
 
 class Cube:
